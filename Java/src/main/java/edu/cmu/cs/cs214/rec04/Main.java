@@ -2,6 +2,7 @@ package edu.cmu.cs.cs214.rec04;
 
 /**
  * Main class for Recitation 5. This can be used as sandbox to experiment in.
+ * 
  * @author Nora Shoemaker
  *
  */
@@ -9,12 +10,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /** 
+        /**
          * This is a sandbox to experiment in.
-         * Uncomment the following code to play with your implementation 
+         * Uncomment the following code to play with your implementation
          * Select all and (CTRL + /) or (COMMAND + /)
-         * Feel free to write more to test your implementation. 
-         * */
+         * Feel free to write more to test your implementation.
+         */
 
         // InheritanceSortedIntList list1;
         // InheritanceSortedIntList list2;
@@ -36,7 +37,6 @@ public class Main {
         // list2.add(3);
         // list2.add(0);
 
-
         // // add the first list (5 elements) to our second list (2 elements).
         // list2.addAll(list1);
 
@@ -46,13 +46,14 @@ public class Main {
 
     /**
      * A helper function that prints out the contents of an IntegerList.
+     * 
      * @param list IntegerList to be printed out.
      */
-    private static void printList(IntegerList list) {
-        for (int i = 0; i < list.size(); i++) {
-            System.out.print(list.get(i));
-            System.out.print(", ");
-        }
-        System.out.println();
-    }
+    // private static void printList(IntegerList list) {
+    // for (int i = 0; i < list.size(); i++) {
+    // System.out.print(list.get(i));
+    // System.out.print(", ");
+    // }
+    // System.out.println();
+    // }
 }
